@@ -1,11 +1,14 @@
 # Smart-Frames-Optimized-Detection-for-People-and-Faces
 
 ## Overview
-Smart Frames is an AI-powered, optimized detection system designed for real-time analysis of high-quality images and videos. By leveraging frame skipping, multithreading, and sequential decision-making algorithms, this system efficiently detects people, performs face detection, and runs face recognition only when needed—minimizing computation on resource-constrained hardware.
+Smart Frames is an AI-powered solution designed to detect and count people in a designated area and recognize whether they are known individuals. The system first identifies if there are people present, then checks for face detection, and finally performs face recognition if faces are found. Built with efficiency in mind, Smart Frames optimizes real-time analysis of high-quality images and videos by incorporating frame skipping and multithreading, ensuring the system only performs computationally intensive tasks when necessary. This approach reduces processing overhead, making it suitable for resource-constrained hardware while maintaining high accuracy and responsiveness.
 
 This project can be adapted for multiple video streams and optimized for various hardware environments.
 
 ## Features
+- **People Detection**: Efficiently detects if people are present
+- **Face Detection**: Once people are detected, the system checks for faces within the frame.
+- **Face Recognition**: If faces are found, it then performs recognition to identify known individuals.
 - **Frame Skipping**: Skip unnecessary frames to save computation without sacrificing accuracy.
 - **Sequential Detection**:
   - Detect people in frames first.
@@ -24,7 +27,7 @@ This project can be adapted for multiple video streams and optimized for various
 ## Use Cases
 - **Smart Surveillance**: Deployable in smart security systems to monitor people and perform face recognition in real-time.
 - **Crowd Analysis**: Detect people in crowds and identify specific individuals for security or event monitoring.
-- **Retail Analytics**: Track customers and perform demographic analysis using people detection.
+- **Industrial, Warehouse, and Hospital Monitoring**: Applicable in industries, warehouses, hospitals, and other locations where it's necessary to detect the presence of people and identify whether they are known or unknown for security and access control.
 
 ## Getting Started
 
@@ -32,8 +35,8 @@ This project can be adapted for multiple video streams and optimized for various
 Make sure you have the following installed on your system:
 - Python 3.8 or above
 - OpenCV
-- YOLOv8 (for people detection)
-- DLIB (for face recognition)
+- YOLOv5 (for people detection)
+- face_recognition (for face recognition)
 - Multithreading Libraries
 
 ### Installation
