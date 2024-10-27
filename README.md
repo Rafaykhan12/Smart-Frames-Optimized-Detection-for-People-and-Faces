@@ -62,20 +62,21 @@ To start the main detection pipeline, use the following command:
 ```bash
 python main.py
 ```
+![smart_frames_demo_video](https://github.com/user-attachments/assets/f07615bf-7ed0-46ad-8633-96c047db2d1d)
 
-### Adjustable Parameters
+## Adjustable Parameters
 Smart Frames provides several configurable parameters for flexibility and optimized performance. Below are the key parameters you can modify:
 
-## Frame Skipping: 
+### Frame Skipping: 
 Adjust the number of frames to skip between each detection cycle to reduce computational load.
 Default: 3
 Modify in code: Change the frame_skip parameter.
 
-## Face Recognition Toggle: 
+### Face Recognition Toggle: 
 Enable or disable the face recognition feature.
 Default: False (face recognition is off)
 Modify in code: Set facial_recognition to True to enable it.
-## Video Source: 
+### Video Source: 
 Choose whether to process a video file or a live camera feed.
 Default: A video file located at train_images/rafay_video.mp4
 Modify in code: Change the video_source to point to your own video file or set it to 0 for the default camera. You can also use link to camera if not using webcam
