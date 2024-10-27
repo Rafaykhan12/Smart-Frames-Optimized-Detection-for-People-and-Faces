@@ -46,16 +46,15 @@ Make sure you have the following installed on your system:
    git clone https://github.com/Rafaykhan12/Smart-Frames-Optimized-Detection-for-People-and-Faces
    cd Smart-Frames
 
-### Install Dependencies
+2. Install Dependencies
 Ensure that you have Python 3.8 or higher installed. To install the required packages, run:
 
 ```bash
-   git clone https://github.com/Rafaykhan12/Smart-Frames-Optimized-Detection-for-People-and-Faces
-   cd Smart-Frames
+   pip install -r requirements.txt
+```
 
 
 ### Usage
-
 
 ### Run the System
 To start the main detection pipeline, use the following command:
