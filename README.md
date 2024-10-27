@@ -42,3 +42,20 @@ Make sure you have the following installed on your system:
    ```bash
    git clone https://github.com/yourusername/Smart-Frames.git
    cd Smart-Frames
+## Installation
+
+### Install Dependencies
+Ensure that you have Python 3.8 or higher installed. To install the required packages, run:
+
+```bash
+pip install -r requirements.txt
+
+
+## Usage
+
+
+### Run the System
+To start the main detection pipeline, use the following command:
+
+```bash
+python main.py
