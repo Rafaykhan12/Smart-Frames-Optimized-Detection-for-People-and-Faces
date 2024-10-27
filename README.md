@@ -43,7 +43,7 @@ Make sure you have the following installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Smart-Frames.git
+   git clone https://github.com/Rafaykhan12/Smart-Frames-Optimized-Detection-for-People-and-Faces
    cd Smart-Frames
 ## Installation
 
