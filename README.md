@@ -45,16 +45,15 @@ Make sure you have the following installed on your system:
    ```bash
    git clone https://github.com/Rafaykhan12/Smart-Frames-Optimized-Detection-for-People-and-Faces
    cd Smart-Frames
-## Installation
 
 ### Install Dependencies
 Ensure that you have Python 3.8 or higher installed. To install the required packages, run:
 
-```bash
-pip install -r requirements.txt
+ ```bash
+   pip install -r requirements.txt
 
 
-## Usage
+### Usage
 
 
 ### Run the System
