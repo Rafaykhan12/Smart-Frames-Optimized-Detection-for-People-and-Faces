@@ -1,8 +1,5 @@
 # Smart-Frames-Optimized-Detection-for-People-and-Faces
 
-
-# Smart Frames: Optimized Detection for People and Faces
-
 ## Overview
 Smart Frames is an AI-powered, optimized detection system designed for real-time analysis of high-quality images and videos. By leveraging frame skipping, multithreading, and sequential decision-making algorithms, this system efficiently detects people, performs face detection, and runs face recognition only when needed—minimizing computation on resource-constrained hardware.
 
