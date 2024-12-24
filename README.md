@@ -1,4 +1,4 @@
-# Smart-Frames-Optimized-Detection-for-People-and-Faces
+# People Counting and Face Recognition - Smart Frames
 
 ## Overview
 Smart Frames is an AI-powered solution designed to detect and count people in a designated area and recognize whether they are known individuals. The system first identifies if there are people present, then checks for face detection, and finally performs face recognition if faces are found. Built with efficiency in mind, Smart Frames optimizes real-time analysis of high-quality images and videos by incorporating frame skipping and multithreading, ensuring the system only performs computationally intensive tasks when necessary. This approach reduces processing overhead, making it suitable for resource-constrained hardware while maintaining high accuracy and responsiveness.
